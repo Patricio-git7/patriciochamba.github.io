@@ -28,12 +28,12 @@ Científico de datos junior con habilidades en manejo de grandes volúmenes dato
 - Resolución creativa de problemas | Comunicación efectiva | Proactividad | Trabajo en equipo | 
 ## 📁 Proyectos
 
-### 1. Análisis de datos climáticos de Instacart
-**Descripción:** Hice un análisis completo de datos de Instacart (plataforma de entregas de comestibles) para investigar cómo las condiciones climáticas afectan la duración de los viajes, que resultó en el descubrimiento de diferencias estadísticamente significativas entre viajes en días lluviosos vs días de buen clima, usando consultas SQL complejas, análisis estadístico con Python y visualizaciones de datos.
+### 1. Redes neuronales para modelo predictor de edades 
+**Descripción:** La cadena de supermercados Good Seed quería probar alguna herramienta que le ayudara a cumplir con la ley sobre el alcohol, al asegurarse de no vender alcohol a personas menores de edad. Así que se usaron las imágenes tomadas por las cámaras en el área de pago cada que alguien compra alcohol, para convertirlas en datos númericos manejables para entrenar redes neuronales, mismas que encontrarían patrones en los rasgos de las personas que desvelara su edad estimada. 
 
-**Herramientas:** Python, Pandas
-**Resultado clave:** [Métrica o hallazgo principal, ej: ROC-AUC de 0.89 / Reducción de costos del 15%].
-**Repositorio:** [Ver código](https://github.com/tuusuario/repo-proyecto1)
+**Herramientas:** Python, Pandas, Scikit-learn, visión artificial, redes neuronales
+**Resultado clave:** Se encontró que el enfoque principal de usar las fotos para predecir la edad no era óptimo, ya que el error en las predicciones era muy grande para esta tarea específica de ver si alguien tenía más de 18 años. Así que se ofreció como alternativa usar la visión artificial para aprender a reconocer el año de nacimiento en la identificación, y a partir de eso dar una mejor y más directa.
+**Repositorio:** https://github.com/Patricio-git7/VisionArtificial
 
 ---
 
@@ -50,3 +50,11 @@ Científico de datos junior con habilidades en manejo de grandes volúmenes dato
 **Tecnologías:** Python, Matplotlib
 **Resultado clave:** Se obtuvieron varias conclusiones principales como que los géneros más rentables de videojuegos globalmente eran acción, deportes y disparos; las calificaciones de los usuarios no afectaban directamente a las ventas de los videojuegos y que las plataformas más destacadas eran la Xbox 360, Wii, PS3 y PS2.
 **Repositorio:** https://github.com/Patricio-git7/AnalisisVideojuegosIce
+
+---
+
+### 4. Desarrollo de modelo predictivo para abandono de clientes de Interconnect
+**Descripción:** Apliqué la ingeniería de datos para extraer la información necesaria de los contratos de los clientes de Interconnect, acerca de sus pagos, servicios contratados, género y sus fechas de salida para obtener la característica objetivo de si abandonaron a la empresa o no. Con estos datos, entrené diversos modelos aplicando herramientas de scikit-learn, para división, categorización y escalado de características, para al final hacer una evaluación de exactitud con la que terminé eligiendo el modelo con mejor índice de predicciones acertadas.
+**Tecnologías:** Python, Scikit-learn, Machine Learning
+**Resultado clave:** Se obtuvo un modelo final con LightGBM usando la estrategia de upsampling, ya que consiguió los más altos valores de precisión en las predicciones de los clientes que podrían abandonar el servicio, justamente para que el departamento de marketing actúe sobre ellos.
+**Repositorio:** https://github.com/Patricio-git7/InterconnectModelo
