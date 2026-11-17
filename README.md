@@ -6,7 +6,7 @@
 ## 👤 Perfil
 
 <p align="center">
-  <img src="URL_DE_TU_FOTO" alt="Foto de perfil" width="150" style="border-radius: 50%;" />
+  <img src="foto carnet.jpg" alt="Foto de perfil" width="150" style="border-radius: 50%;" />
 </p>
 
 **Contacto:**
